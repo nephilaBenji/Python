@@ -15,7 +15,6 @@ def arvore(altura):
     right(30)
     backward(30)
 
-
 count_espacamento = 0
 def espacamento():
     global count_espacamento
@@ -68,7 +67,9 @@ casa()
 right(60)
 color("yellow")
 forward(100)
-espacamento()
+right(180)
+voltar()
+left(90)
 arvore(altura)
 espacamento()
 color("brown")
